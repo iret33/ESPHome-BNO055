@@ -1,0 +1,14 @@
+esphome:
+  name: bno055_test
+  includes:
+    - components/bno055/bno055.h
+
+esp32:
+  board: esp32dev
+
+logger:
+
+custom_component:
+  - lambda: |-
+      auto bno = new esphome::bno055::BNO055Sensor();
+      App.register_component(bno);

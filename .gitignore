@@ -1,0 +1,31 @@
+# General files to ignore
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.log
+
+# PlatformIO specific
+.pio/
+.piolibdeps/
+*.pyc
+*.pyo
+__pycache__/
+
+# Build and output files
+*.elf
+*.bin
+*.hex
+*.map
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
